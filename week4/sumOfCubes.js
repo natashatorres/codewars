@@ -1,11 +1,13 @@
-function sumCubes(n) {
+//https://www.codewars.com/kata/59a8570b570190d313000037
+
+
+function sumCubes(n){
     let sum = 0;
-    for (let i = 0; i <= n; i++) {
-        sum += i * i * i
-    }
-    return sum
+    for (let i = 0; i <= n; i++){
+        sum += i ** 3
+      }
+        return sum 
 }
-  
 
 
 
@@ -26,4 +28,5 @@ return total
 What I googled:
 -how to cube a number
 questions:
-will input always be a positive integer? 
+will input always be a positive integer?
+*/
