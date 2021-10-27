@@ -6,9 +6,18 @@ String will never be empty and you do not need to account for different data typ
 */
 
 function findShort(s){
-}
-
-
+    let strArr = s.split(' ')
+    let shortestWord = strArr[0].length
+    console.log(strArr[0].length)
+  
+    for(let i = 0; i < strArr.length; i++){
+      if(strArr[i].length < shortestWord){
+        shortestWord = strArr[i].length;
+      }
+    }
+    return shortestWord
+  }
+  
 /*
 
 parameter: a string of words
@@ -27,9 +36,7 @@ will the string ever contain numbers?
 
 
 pseudocode
-create a new variable 'newArr' that combines the multidimensional array into one
-use concat and apply method
-concat adds the array's together (takes the multiple arguments, and merges all the arrays (and non-array arguments) into a single arra)
-use sort method for numeric values to order the array
+turn str into an array using split
+create a variable that 
 */
 
