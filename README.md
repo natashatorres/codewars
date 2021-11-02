@@ -1,3 +1,3 @@
 # Codewar and Leetcode Challenges
 
-https://www.codewars.com/users/natashatorres/badges/large
+![My Codewarrior Profile Badge](https://www.codewars.com/users/natashatorres/badges/large)
