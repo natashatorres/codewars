@@ -23,5 +23,5 @@ example
 'Grae said: "Practice makes perfect"'
 
 pseudocode:
-return a string 
+return a string make first name letter capital
 */

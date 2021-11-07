@@ -12,17 +12,18 @@ which changes all but the last four characters into '#'.
 
 */
 
-function maskify(cc) {
-    let strArr = cc.split("")
-    console.log(strArr)
+function maskify(cc){
+    let strArr = cc.split('')
     for(let i = 0; i < strArr.length -4; i++){
-        strArr[i] = "#"
+        strArr = "#"
     }
-  
-    return strArr.join("")
+    return strArr.join('')
 }
 
 console.log(maskify('4556364607935616'))
+
+
+
 /*
 
 
