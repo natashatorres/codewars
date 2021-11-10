@@ -12,7 +12,6 @@ Basements (negatives) stay the same as the universal level.
 
 */
 function getRealFloor(n) {
-    // return n <= 0 ? n : n > 13 ? n-2 : n-1;
 
     if(n <= 0){
         return n
