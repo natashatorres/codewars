@@ -8,18 +8,20 @@ The input string will only consist of lower case letters and/or spaces.
 
 */
 
-function getCount(str) {
-    var vowelsCount = 0;
-    let vowels = ["a", "e", "i", "o", "u"]
-    
+function countVowels(str){
+    let vowelCount = 0
+    let vowels = ['a', 'e', 'i', 'o', 'u']
     for(let i = 0; i < str.length; i++){
-    if(vowels.includes(str[i])){
-        vowelsCount++
+        console.log(str[i])
+        if(vowels.includes(str[i])){
+            vowelCount++
+        }
     }
+    return vowelCount
 }
-    return vowelsCount;
-  }
-console.log(getCount("abracadabra"))
+
+console.log(countVowels("aaaeeebcd"))
+
 
 /*
 
