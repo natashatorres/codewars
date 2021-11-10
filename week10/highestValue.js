@@ -10,11 +10,5 @@ function twoHighest(arr) {
     // }
 }
 
-//let sorted = arr.sort(function(a, b){return a - b});
-//   const highestNum = sorted.slice(-2)
-//   if(highestNum.length === 2 && highestNum[0] === highestNum[1]){
-//       return highestNum[0]
-//   }
-
 
 console.log(twoHighest([15, 20, 20, 17]))
