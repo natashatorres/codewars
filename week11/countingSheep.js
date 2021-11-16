@@ -12,7 +12,7 @@ function countSheeps(arrayOfSheep) {
     let count = sheep.length
 
     return count
-    //filter through the array, count the numer of true, and return that number
+    //filter through the array, count the numer of true through .length, and return that number
 
 }
 
