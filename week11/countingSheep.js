@@ -17,12 +17,12 @@ function countSheeps(arrayOfSheep) {
 }
 
 console.log(countSheeps(
-    [true,  true,  true,  false,
-    true,  true,  true,  true ,
-    true,  false, true,  false,
-    true,  false, false, true ,
-    true,  true,  true,  true ,
-    false, false, true,  true], 17))
+    [true, true, true, false,
+        true, true, true, true,
+        true, false, true, false,
+        true, false, false, true,
+        true, true, true, true,
+        false, false, true, true], 17))
 console.log(countSheeps(
     [true, true, true, false], 3))
 console.log(countSheeps(
