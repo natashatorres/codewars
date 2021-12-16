@@ -1,14 +1,8 @@
 
 function partsSums(ls) {
-    let arr = []
+    
 
-    for(const element of ls){
-     
-    }
-
-    return arr
-
-
+ 
 }
 
 
