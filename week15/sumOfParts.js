@@ -3,7 +3,7 @@ function partsSums(ls) {
     let arr = []
 
     for(const element of ls){
-        arr.push(element + element)
+     
     }
 
     return arr
