@@ -13,7 +13,7 @@ write a function that returns the average age of developers (rounded to the near
 
 function getAverageAge(list) {
     let ageArr = list.map(e => e.age)
-    return Math.ceil(ageArr.reduce((a,b) => a + b)/ ageArr.length)
+    return Math.round(ageArr.reduce((a,b) => a + b)/ ageArr.length)
 }
 
 
