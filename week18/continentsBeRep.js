@@ -1,5 +1,6 @@
 function allContinents(list) {
-    let continents = ['Africa', 'Americas', 'Asia', 'Europe',]
+    let continents = ['Africa', 'Americas', 'Asia', 'Europe', 'Oceania']
+    return continents.every(e => list.some(e2 => e == e2.continent))
 }
 
 
