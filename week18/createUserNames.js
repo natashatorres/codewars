@@ -1,10 +1,11 @@
 function addUsername(list) {
 //grab the first name turn it to lowercase
 //grab the the lastname first index and lowercase it
+//get year from list
+let year = 
 //concat firstname, lastname first index and year
-// var dateOfBirth = new Date(new Date().getTime() - age); 
 
-list.forEach(e => e.username = `${e.firstName.toLowerCase()}${e.lastName[0].toLowerCase()}`)
+list.forEach(e => e.username = `${e.firstName.toLowerCase()}${e.lastName[0].toLowerCase()} `)
 return list
 
 }
