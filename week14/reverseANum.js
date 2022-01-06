@@ -15,7 +15,7 @@ function reverseNumber(num){
     let reversedNum = num.toString().split('').reverse().join('')
     
     return parseFloat(reversedNum) * Math.sign(num)
-    console.log(reversedNum)
+    
 }
 
 
