@@ -4,13 +4,24 @@ leaving only first words entries. For example:
 */
 
 const removeConsecutiveDuplicates = s => { 
-let words = s.split(' ')
+    let words = s.split(' ')
+    
+    for(let i = 0; i< words.length; i++){
+        if(words[i] === words[i + 1]){
+           words.splice(i, 1);
+           i--;
+        }
+    }
+
+    return words.join(' ')
+
 }
+
 console.log(removeConsecutiveDuplicates("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta"), "alpha beta gamma delta alpha beta gamma delta")
 
 
 /*
-Parameters => always going to get a string of words might oontains duplicates
+Parameters => always going to get a string of words might contains duplicates
 Example => "alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta" --> "alpha beta gamma delta alpha beta gamma delta"
 Return => a string with no duplicate words
 Pseduo =>
