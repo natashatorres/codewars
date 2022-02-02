@@ -1,11 +1,6 @@
 function largestPairSum (numbers) {
- let orderedNums = numbers.sort((a, b) => a - b)
- let max1 = orderedNums.splice(orderedNums.length - 1)
- let max2 = orderedNums.splice(orderedNums.length - 1)
- let maxnums = max1.concat(max2)
-
- return maxnums.reduce((a, b) => a + b)
-
+    let sortedArr = numbers.sort((a, b) => a - b).splice(-2, 2)
+    return sortedArr.reduce((a, b) => a + b)
 
 }
 
